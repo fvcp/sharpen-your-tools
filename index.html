@@ -1,0 +1,247 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Git Intro | Fox Valley Computing Porfessionals</title>
+    <link rel="stylesheet" href="css/reveal.min.css">
+    <link rel="stylesheet" href="css/theme/start.css" id="theme">
+    <!--Add support for earlier versions of Internet Explorer -->
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!-- Wrap the entire slide show in a div using the "reveal" class. -->
+    <div class="reveal">
+        <!-- Wrap all slides in a single "slides" class -->
+        <div class="slides">
+
+            <!-- ALL SLIDES GO HERE -->
+            <!-- Each section element contains an individual slide -->
+            <section>
+                <section>
+                    <h1>Git Intro</h1>
+                    <p class="subtitle">A brief introduction to version control with Git and tools to help you get comfortable.</p>
+                    <p><a href="http://www.meetup.com/foxvalleycp/" title="Fox Valley Computing Professionals (Geneva, IL) - Meetup">Fox Valley Computing Professionals</a></p>
+                    <p>12 February 2014</p>
+                </section>
+                <section>
+                    <h1>Jason Bell</h1>
+                    <p><img src="https://s3.amazonaws.com/media-p.slid.es/uploads/jasonbell/images/73703/solid-teal.png" class="inset-image">Start Interaction is a digital design and communication strategy consultancy specializing in delivering messages with style.</p>
+                    <ul class="half-center">
+                      <li>
+                        <a href="http://twitter.com/j_bell">Twitter</a>—@j_bell
+                      </li>
+                      <li>
+                        <a href="https://alpha.app.net/jasonbell">App.net</a>—@jasonbell
+                      </li>
+                      <li><a href="https://github.com/jasonbell">Github</a>—jasonbell</li>
+                      <li>
+                        <a href="https://drupal.org/user/392435">Drupal.org</a>—jason.bell
+                      </li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Why Version Control?</h1>
+                    <img src="http://wordpress.codegladiators.com/wp-content/uploads/2013/09/version-control.png" alt="">
+                </section>
+
+                <section>
+                    <p class="emphasis">It will save your a**!</p>
+                </section>
+
+                <section>
+                    <p>Is this what your project directory looks like?</p>
+                    <img src="http://www.datamation.com/imagesvr_ce/3829/version-control.jpg" alt="" class="half-left">
+                    <ul class="half-right">
+                        <li>index-v2-old.html</li>
+                        <li>index.html.bak</li>
+                        <li>index.html.bak2</li>
+                        <li>index-v3-final-maybe.html</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <p>Have you ever…</p>
+                    <ul>
+                        <li>Made a quick fix on the production server… and oops!</li>
+                        <li>Overwritten a file and then needed it back?</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Version control will provide:</h2>
+                    <ul>
+                        <li>Historical record of attributed code changes</li>
+                        <li>Simple change sharing</li>
+                        <li>Team code review</li>
+                        <li>A feel good sense of security</li>
+                    </ul>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>Why Git?</h1>
+                    <img src="http://git-scm.com/images/logos/downloads/Git-Logo-2Color.png" alt="git logo" class="half-center">
+                </section>
+                <section>
+                    <img src="http://guides.beanstalkapp.com/version-control/intro-to-version-control/dvc.png" alt="Illustration of distributed computers" class="half-left">
+                    <ul class="half-right">
+                        <li>Detailed change tracking</li>
+                        <li>Fully distributed repository</li>
+                        <li>Complete local copy</li>
+                        <li>Reliable branching and merging</li>
+                        <li>Speed</li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>All the cool kids are doing it!</h2>
+                    <img src="http://octodex.github.com/images/daftpunktocat-thomas.gif" alt="" class="daft-thomas half-left">
+                    <img src="http://octodex.github.com/images/daftpunktocat-guy.gif" alt="" class="daft-guy half-right">
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>Where do i git a repository?</h1>
+                </section>
+                <section>
+                    <h1><a href="https://github.com/" title="Github">GitHub</a></h1>
+                    <p>Powerful collaboration, code review, and code management for open source and private projects.</p>
+                    <ul>
+                        <li>Integrated issue tracking</li>
+                        <li>Collaborative code review</li>
+                        <li>Easy team management</li>
+                        <li>Easy publishing with <a href="http://pages.github.com/" title="GitHub Pages">Github Pages</a></li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="https://bitbucket.org/" title="Free source code hosting for Git and Mercurial by Bitbucket">Bitbucket</a></h1>
+                    <p>Unlimited private code repositories.</p>
+                    <ul>
+                        <li>Simple team and user management</li>
+                        <li>Pull request and code review</li>
+                        <li>Integrated issues tracker <em>plus</em> integration to other Atlassian products</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1><a href="http://beanstalkapp.com/" title="Beanstalk &amp;mdash; Secure, Private Subversion and Git Hosting">Beanstalk</a></h1>
+                    <p>Private code hosting for teams.</p>
+                    <ul>
+                        <li>Git & SVN repositories</li>
+                        <li>Team management with branch access</li>
+                        <li>Instant preview of HTML and images</li>
+                        <li>Deployments!</li>
+                        <li>Third party integrations</li>
+                    </ul>
+                </section>
+                <section>
+                    <h1>Git hosting services</h1>
+                    <p><a href="http://www.git-tower.com/blog/git-hosting-services-compared/" title="12 Git Hosting Services Compared">http://www.git-tower.com/blog/git-hosting-services-compared/</a></p>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>Tools for working with Git</h1>
+                </section>
+                <section>
+                    <h2>Terminal sounds dangerous!</h2>
+                    <ul>
+                        <li><a href="http://www.sourcetreeapp.com/" title="Free Mercurial and Git Client for Windows and Mac | Atlassian SourceTree">SourceTree</a></li>
+                        <li><a href="http://www.git-tower.com/" title="Tower - The most powerful Git client for Mac">Git Tower</a></li>
+                        <li><a href="http://mac.github.com/" title="GitHub for Mac">Github for Mac</a></li>
+                        <li><a href="http://windows.github.com/" title="GitHub for Windows">Github for Windows</a></li>
+                        <li><a href="http://gitx.frim.nl/" title="GitX - Home">GitX</a></li>
+                    </ul>
+
+                    <p>There are <a href="http://git-scm.com/downloads/guis" title="Git - GUI Clients">many more</a> to <a href="https://git.wiki.kernel.org/index.php/InterfacesFrontendsAndTools#Graphical_Interfaces" title="Interfaces, frontends, and tools - Git SCM Wiki">choose from</a>.</p>
+                </section>
+                <section>
+                    <h2>In the event of conflict</h2>
+                    <div class="half-left">
+                        <h3>Mac</h3>
+                        <ul>
+                            <li><a href="http://www.kaleidoscopeapp.com/" title="Kaleidoscope &amp;mdash; File comparison for Mac">Kaleidoscope</a></li>
+                            <li><a href="https://developer.apple.com/xcode/" title="Xcode Downloads and Resources - Apple Developer">FileMerge—XCode</a></li>
+                            <li><a href="http://www.araxis.com" title="Araxis: Software for Productive People">Araxis Merge</a></li>
+                        </ul>
+                    </div>
+                    <div class="half-right">
+                        <h3>Windows</h3>
+                        <ul>
+                            <li><a href="http://www.araxis.com" title="Araxis: Software for Productive People">Araxis Merge</a></li>
+                            <li><a href="http://www.scootersoftware.com" title="Scooter Software: Home of Beyond Compare">Beyond Compare</a></li>
+                            <li><a href="http://winmerge.org/" title="WinMerge">WinMerge</a></li>
+                        </ul>
+                        </div>
+                </section>
+                <section>
+                    <h2>We don't need no stinkin buttons!</h2>
+                    <img src="http://www.ladyofthecake.com/mel/saddles/images/badges.jpg" alt="" class="half-left">
+
+                    <ul class="half-right">
+                        <li><a href="http://git-scm.com/docs" title="Git - Reference">Git command reference</a></li>
+                        <li><a href="http://www.git-tower.com/blog/git-cheat-sheet" title="Git Cheat Sheet">Git CLI cheat sheet</a></li>
+                    </ul>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h1>Teach me Git</h1>
+                    <p>Crash course!</p>
+                    <pre class="cli"><code>
+$ git clone git@github.com:hakimel/reveal.js.git
+$ git branch my-reveal-copy
+$ git checkout my-reveal-copy
+                    </code></pre>
+                    <p>Make your changes to <code>index.html</code> and commit them in your branch.</p>
+                    <pre class="cli"><code>
+$ git add index.html
+$ git commit -m "I changed something"
+                    </code></pre>
+                </section>
+                <section>
+                    <h1>Get the basics down</h1>
+                    <p><a href="https://www.codeschool.com/courses/try-git" title="Git Tutorial - Code School">tryGit course on Code School</a></p>
+                    <p>This free course gets you through the basics of using git with an introductory project in your Github account.</p>
+                </section>
+                <section>
+                    <h1>Learn Git Branching</h1>
+                    <p><a href="http://pcottle.github.io/learnGitBranching/" title="Learn Git Branching">LearnGitBranching</a> is an interactive application to learn about branching.</p>
+                </section>
+                <section>
+                    <h1>I have a team</h1>
+                    <h2>It’s complicated</h2>
+                    <p>Working in a team environment really lets Git shine. It also gets complicated. Read these ideas and find a workflow that works for your team…</p>
+                    <ul>
+                        <li><a href="http://nvie.com/posts/a-successful-git-branching-model/" title="A successful Git branching model &amp;raquo; nvie.com">Git Flow</a></li>
+                        <li><a href="http://scottchacon.com/2011/08/31/github-flow.html" title="GitHub Flow &amp;ndash;Scott Chacon">Github Flow</a></li>
+                        <li><a href="http://www.joslynesser.com/blog/archives/2010/09/06/git-workflow-for-small-teams/" title="Git workflow for small teams - Blog - Joslyn Esser">Git workflow for small teams</a></li>
+                        <li><a href="https://www.atlassian.com/git/workflows" title="Git Workflows and Tutorials | Atlassian">Overview of multiple workflows</a></li>
+                    </ul>
+                </section>
+            </section>
+
+            </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.min.js"></script>
+
+    <script>
+        // Required, even if empty.
+        Reveal.initialize({
+            progress: true,
+            keyboard: true,
+            touch: true,
+            history: true,
+            dependencies: [
+                { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+                { src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } }
+            ]
+        });
+    </script>
+</body>
+</html>
