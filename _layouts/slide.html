@@ -1,0 +1,10 @@
+---
+layout: presentation
+---
+<!-- ALL SLIDES GO HERE -->
+<!-- Each section element contains an individual slide -->
+{% for slide in site.slides %}
+<section>
+    {{ slide.content }}
+</section>
+{% endfor %}

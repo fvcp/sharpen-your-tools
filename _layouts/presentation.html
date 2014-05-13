@@ -1,9 +1,7 @@
----
----
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Git Intro | Fox Valley Computing Professionals</title>
+    <title>Git Intro | Fox Valley Computing Porfessionals</title>
     <link rel="stylesheet" href="css/reveal.min.css">
     <link rel="stylesheet" href="css/theme/start.css" id="theme">
     <!--Add support for earlier versions of Internet Explorer -->
@@ -17,14 +15,7 @@
     <div class="reveal">
         <!-- Wrap all slides in a single "slides" class -->
         <div class="slides">
-
-            <!-- ALL SLIDES GO HERE -->
-            <!-- Each section element contains an individual slide -->
-            {% for slide in site.slides %}
-            <section>
-                {{ slide.content }}
-            </section>
-            {% endfor %}
+            {{ content }}
         </div>
     </div>
     <script src="lib/js/head.min.js"></script>
